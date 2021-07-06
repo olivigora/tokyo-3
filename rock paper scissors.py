@@ -7,10 +7,14 @@ while True:
 	if player2 == "quit":
 		break
 		
-	if (player1 == "rock" and player2 == "scissors") or (player1 == "paper" and player2 == "rock") or (player1 == "scissors" and player2 == "paper"):
-		print("Player 1 wins!")
+	
+	if (player1 == "rock" and player2 == "rock") or (player1 == "paper" and player2 == "paper") or (player1 == "scissors" and player2 == "scissors")
+		print("It's a draw!")
+	
+	elif (player1 == "rock" and player2 == "scissors") or (player1 == "paper" and player2 == "rock") or (player1 == "scissors" and player2 == "paper"):
+		print("Player 1 wins!") 
 	
 	elif (player2 == "rock" and player1 == "scissors") or (player2 == "paper" and player1 == "rock") or (player2 == "scissors" and player1 == "paper"):
 		print("Player 2 wins!")
 		
-	else: print("It's a draw!")
+	else: print("ERROR")
