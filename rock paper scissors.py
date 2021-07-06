@@ -8,7 +8,7 @@ while True:
 		break
 		
 	
-	if (player1 == "rock" and player2 == "rock") or (player1 == "paper" and player2 == "paper") or (player1 == "scissors" and player2 == "scissors")
+	if (player1 == "rock" and player2 == "rock") or (player1 == "paper" and player2 == "paper") or (player1 == "scissors" and player2 == "scissors"):
 		print("It's a draw!")
 	
 	elif (player1 == "rock" and player2 == "scissors") or (player1 == "paper" and player2 == "rock") or (player1 == "scissors" and player2 == "paper"):
